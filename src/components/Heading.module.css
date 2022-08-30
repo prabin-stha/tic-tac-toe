@@ -1,0 +1,26 @@
+.header {
+	color: #333333;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.heading {
+	font-size: 5rem;
+	padding-bottom: 1rem;
+}
+
+.subHeading {
+	font-size: 2rem;
+	padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+	.heading {
+		font-size: 3rem;
+	}
+
+	.subHeading {
+		font-size: 1.5rem;
+	}
+}

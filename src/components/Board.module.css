@@ -1,0 +1,13 @@
+.boxContainer {
+	display: grid;
+	grid-template-columns: 120px 120px 120px;
+	grid-template-rows: 120px 120px 120px;
+	gap: 4px;
+}
+
+@media screen and (max-width: 500px) {
+	.boxContainer {
+		grid-template-columns: 90px 90px 90px;
+		grid-template-rows: 90px 90px 90px;
+	}
+}

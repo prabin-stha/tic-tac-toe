@@ -1,0 +1,45 @@
+.box {
+	position: relative;
+	border: none;
+	background-color: #136a8a;
+	cursor: pointer;
+	color: white;
+	font-family: inherit;
+	font-size: 100px;
+	transition: all 100ms ease-out;
+}
+
+.box:hover {
+	transform: scale(0.95);
+}
+
+.box:disabled {
+	background-color: #267871;
+	cursor: auto;
+}
+
+.box:disabled {
+	transform: none;
+}
+
+.box:nth-child(1) {
+	border-top-left-radius: 5px;
+}
+
+.box:nth-child(3) {
+	border-top-right-radius: 5px;
+}
+
+.box:nth-child(7) {
+	border-bottom-left-radius: 5px;
+}
+
+.box:nth-child(9) {
+	border-bottom-right-radius: 5px;
+}
+
+@media screen and (max-width: 500px) {
+	.box {
+		font-size: 70px;
+	}
+}

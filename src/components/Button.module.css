@@ -1,0 +1,26 @@
+.button {
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: 5px;
+	background: #136a8a; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#267871,
+		#136a8a
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#267871,
+		#136a8a
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+	font-size: 16px;
+	font-family: inherit;
+	cursor: pointer;
+	margin-top: 2rem;
+	transition: transform 200ms ease-out;
+}
+
+.button:hover {
+	transform: scale(1.1);
+}
